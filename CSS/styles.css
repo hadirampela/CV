@@ -1,0 +1,38 @@
+
+    image{
+        size: 60px;
+    }
+    body{
+        background-color:beige;
+    }
+    hr {
+        height:5px;
+        background-color: #499db3c7;
+        fill: #499db3c7;
+        border: none;
+    }
+    table{
+        padding: 5px;
+        border: 0px;
+        border:none;
+        border-style: none;
+        border-top: #1a5ecaca;
+        border-spacing: 2px;
+    }
+
+    p{
+       
+        background-color: #ff63475d;
+        font-family: 'Trebuchet MS';
+        margin: 0;
+        text-indent: 3ch;
+         
+        
+    }
+    p.pilcrow {
+        text-indent: 0;
+        display: inline;
+     }
+     p.pilcrow + p.pilcrow::before {
+       content: " ¶ ";
+     }
